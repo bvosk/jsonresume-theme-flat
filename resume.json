@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Brian",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "brian@resume.bvosk.me",
+    "phone": "",
+    "website": "https://bvosk.me",
+    "summary": "Curious, motivated, pragmatic",
+    "location": {},
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Facil-IT",
+      "position": "Software Engineer",
+      "website": "https://www.facil-ity.com",
+      "startDate": "2017-01-01",
+      "endDate": null,
+      "summary": "Facil-IT provides cloud-based CMMS software for multi-site facility management.",
+      "highlights": [
+        "Designed, implemented, tested, deployed, and supported SaaS and enterprise web applications across the web stack using SQL Server, ASP.NET, and front end technologies.",
+        "Developed mobile applications using technologies such as Apache Cordova, Angular, and Vue.js and their supporting APIs",
+        "Maintained SQL Server instances creating tables, stored procedures, triggers, and managing the deployment of database updates.",
+        "Implemented deployment automation by boostrapping a CI/CD pipeline  using TeamCity and Octopus Deploy for many projects."
+      ]
+    },
+    {
+      "company": "BAE Systems",
+      "position": "Firmware Engineer",
+      "website": "https://www.baesystems.com",
+      "startDate": "2015-01-01",
+      "endDate": "2016-12-31",
+      "summary": "BAE Systems provides fly-by-wire flight control systems that lead the commercial aviation industry.",
+      "highlights": [
+       "Completed Engineering Leadership Development training and led a team of peers through an internal RFP process to redesign an engine control subsystem.",
+       "Modified the requirements, design, implementation, and test of a dual-core, real-time operating system which manages partitioned application software.",
+       "Adapted an existing bootloader to comply with changes in communication and upload protocols.",
+       "Adhered to common communication standards such as TFTP, SNMP, ARINC 615A-2, ARINC 665, ARINC 664 (AFDX)."
+      ]
+    },
+    {
+      "company": "CognitiveTPG",
+      "position": "Firmware Engineer",
+      "website": "http://www.cognitivetpg.com/",
+      "startDate": "2014-06-01",
+      "endDate": "2015-01-01",
+      "summary": "CognitiveTPG is an integrated supplier of barcode printers and transaction printers.",
+      "highlights": [
+       "Designed, implemented, and tested embedded firmware which integrates into large, real-time systems.",
+       "Used common communication protocols such as Bluetooth, Wi-Fi, TCP/IP, SPI, I2C, and RS-232"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Syracuse University",
+      "area": "Computer Science",
+      "studyType": "Master's Degree",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Rensselaer Polytechnic Institute",
+      "area": "Computer & Systems Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Backend Web",
+      "level": "Master",
+      "keywords": [
+        "ASP.NET Core",
+        "DevExpress",
+        "OData",
+        "IIS Web Server"
+      ]
+    },
+    {
+      "name": "Frontend Web",
+      "level": "Master",
+      "keywords": [
+        "Angular 2+",
+        "Vue.js",
+        "IndexedDB",
+        "DevExtreme"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Master",
+      "keywords": [
+        "SQL Server",
+        "SQLIte",
+        "Dapper Micro ORM",
+        "Entity Framework ORM"
+      ]
+    },
+    {
+      "name": "Legacy",
+      "level": "Master",
+      "keywords": [
+        "AngularJS",
+        "jQuery Mobile",
+        "Web Forms",
+        "Apache Cordova"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "TeamCity",
+        "Octopus Deploy",
+        "Redgate Source Control",
+        "PowerShell"
+      ]
+    },
+    {
+      "name": "Embedded",
+      "level": "Master",
+      "keywords": [
+        "Oscillators, DMAs, ADCs, RTCs, PWM controllers, PWM controllers, EEPROM, and watchdog timers",
+        "UART, SPI, I2C, CAN, and Bluetooth communciation protocols",
+        "Debugging with oscilliscopes, logic analyzers, and Wireshark"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "C#",
+      "fluency": "> 2 years professionally"
+    },
+    {
+      "language": "JavaScript",
+      "fluency": "> 2 years professionally"
+    },
+    {
+      "language": "TypeScript",
+      "fluency": "< 1 year professionally"
+    },
+    {
+      "language": "T-SQL",
+      "fluency": "> 2 years professionally"
+    },
+    {
+      "language": "C (Embedded)",
+      "fluency": "> 2 years professionally"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
