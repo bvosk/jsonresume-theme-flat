@@ -49,15 +49,18 @@
 			{{#email}}
 			<div class="col-sm-6">
 				<strong>Email</strong>
-				<div class="email">{{.}}</div>
+				<div class="email"><a href="mailto:{{.}}">{{.}}</a></div>
 			</div>
 			{{/email}}
+			{{#if phone.length}}
 			{{#phone}}
 			<div class="col-sm-6">
 				<strong>Phone</strong>
 				<div class="phone">{{.}}</div>
 			</div>
 			{{/phone}}
+			{{/if}}
+			{{#if website.length}}
 			{{#website}}
 			<div class="col-sm-6">
 				<strong>Website</strong>
@@ -66,6 +69,7 @@
 				</div>
 			</div>
 			{{/website}}
+			{{/if}}
 			</div>
 		</div>
 	</section>
@@ -130,7 +134,7 @@
 				<h4 class="strike-through">
 					<span>{{company}}</span>
 					<span class="date">
-						{{startDate}} — {{endDate}}
+						{{#formatDate startDate "mmm yyyy"}}{{/formatDate}} — {{#formatDate endDate "mmm yyyy"}}{{/formatDate}}
 					</span>
 				</h4>
 				{{#website}}
