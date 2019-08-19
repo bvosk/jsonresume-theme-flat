@@ -1,18 +1,19 @@
 {
-  "name": "jsonresume-theme-flat",
+  "name": "jsonresume-theme-pumpkin",
   "version": "0.1.0",
-  "description": "A theme for JSON Resume",
+  "description": "A theme based on the original flat theme",
   "author": "Brian",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvosk/jsonresume-theme-flat"
+    "url": "https://github.com/bvosk/jsonresume-theme-pumpkin"
   },
   "scripts": {
     "start": "resume serve"
   },
   "dependencies": {
     "dateformat": "^3.0.3",
-    "handlebars": "^4.1.2"
+    "handlebars": "^4.1.2",
+    "jsonresume-theme-pumpkin": "^0.1.0"
   },
   "license": "MIT"
 }
