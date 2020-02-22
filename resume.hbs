@@ -179,7 +179,7 @@
 				<h4 class="strike-through">
 					<span>{{organization}}</span>
 					<span class="date">
-						{{startDate}} — {{endDate}}
+						{{#formatDate startDate "mmm yyyy"}}{{/formatDate}} — {{#formatDate endDate "mmm yyyy"}}{{/formatDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -224,7 +224,7 @@
 				<h4 class="strike-through">
 					<span>{{institution}}</span>
 					<span class="date">
-						{{startDate}} — {{endDate}}
+						{{#formatDate startDate "mmm yyyy"}}{{/formatDate}} — {{#formatDate endDate "mmm yyyy"}}{{/formatDate}}
 					</span>
 				</h4>
 				{{#area}}
@@ -267,7 +267,7 @@
 				{{#date}}
 				<div class="date pull-right">
 					<em>Awarded</em>
-					{{.}}
+					{{#formatDate . "mmm yyyy"}}{{/formatDate}}
 				</div>
 				{{/date}}
 				{{#awarder}}
@@ -300,7 +300,7 @@
 				<h4 class="strike-through">
 					<span>{{name}}</span>
 					<span class="date">
-						{{releaseDate}}
+						{{#formatDate releaseDate "mmm yyyy"}}{{/formatDate}}
 					</span>
 				</h4>
 				{{#website}}

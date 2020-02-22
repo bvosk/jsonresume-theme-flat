@@ -1,6 +1,6 @@
 ## Preview
 
-The theme can be previewed at http://themes.jsonresume.org/flat
+<img src="resume.png" alt="Resume Preview" height="1000" />
 
 ## License
 
