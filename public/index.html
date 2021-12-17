@@ -18,6 +18,7 @@
 :root {
 	--headerBackgroundColor: #1E1E1E;
 	--accentColor: #FB0;
+	--mutedColor: #f4f6f6;
 }
 
 body {
@@ -206,6 +207,19 @@ h4 span:first-child {
 	}
 }
 
+.tag-list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+
+.tag-list > li {
+	background: var(--mutedColor);
+	margin: 0 0.2em 0.2em 0;
+	padding: 0.1em 0.6em;
+	list-style-type: none
+}
 	</style>
 	
 	</head>
@@ -235,7 +249,7 @@ h4 span:first-child {
 			<div class="row">
 			<div class="col-sm-6">
 				<strong>Email</strong>
-				<div class="email"><a href="mailto:john@gmail.com">john@gmail.com</a></div>
+				<div class="email"><a href="mailto:john@gmail.com" target="_blank">john@gmail.com</a></div>
 			</div>
 			<div class="col-sm-6">
 				<strong>Phone</strong>
@@ -244,7 +258,7 @@ h4 span:first-child {
 			<div class="col-sm-6">
 				<strong>Website</strong>
 				<div class="website">
-					<a href="http://johndoe.com">http://johndoe.com</a>
+					<a href="http://johndoe.com" target="_blank">http://johndoe.com</a>
 				</div>
 			</div>
 			</div>
@@ -270,7 +284,7 @@ h4 span:first-child {
 					</strong>
 					<div class="username">
 						<div class="url">
-							<a href="http://twitter.com/john">john</a>
+							<a href="http://twitter.com/john" target="_blank">john</a>
 						</div>
 					</div>
 				</div>
@@ -292,7 +306,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a href="http://company.com">http://company.com</a>
+					<a href="http://company.com" target="_blank">http://company.com</a>
 				</div>
 				<div class="position">
 					President
@@ -323,7 +337,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a href="http://organization.com/">http://organization.com/</a>
+					<a href="http://organization.com/" target="_blank">http://organization.com/</a>
 				</div>
 				<div class="position">
 					Volunteer
@@ -408,7 +422,7 @@ h4 span:first-child {
 					</span>
 				</h4>
 				<div class="website pull-right">
-					<a href="http://publication.com"></a>
+					<a href="http://publication.com" target="_blank"></a>
 				</div>
 				<div class="publisher">
 					<em>Published by</em>
@@ -427,18 +441,18 @@ h4 span:first-child {
 			<h3>Skills</h3>
 		</aside>
 		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Web Development</h4>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="name">
+							<h4>Web Development</h4>
+						</div>
+						<ul class="tag-list">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+						</ul>
+					</div>
 				</div>
-				<ul class="keywords">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-				</ul>
-			</div>
-			</div>
 		</div>
 	</section>
 

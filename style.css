@@ -5,6 +5,7 @@
 :root {
 	--headerBackgroundColor: #1E1E1E;
 	--accentColor: #FB0;
+	--mutedColor: #f4f6f6;
 }
 
 body {
@@ -191,4 +192,18 @@ h4 span:first-child {
 	#actions {
 		display: none;
 	}
+}
+
+.tag-list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+
+.tag-list > li {
+	background: var(--mutedColor);
+	margin: 0 0.2em 0.2em 0;
+	padding: 0.1em 0.6em;
+	list-style-type: none
 }
