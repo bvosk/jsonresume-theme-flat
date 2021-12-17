@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-pumpkin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A dark, orangy theme based on the original flat theme",
   "author": "Brian",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "dateformat": "^3.0.3",
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.7.7",
     "underscore": "^1.13.2"
   },
   "license": "MIT"
