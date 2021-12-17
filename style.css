@@ -207,3 +207,7 @@ h4 span:first-child {
 	padding: 0.1em 0.6em;
 	list-style-type: none
 }
+
+.tag-list > li::before {
+	content: none;
+}
