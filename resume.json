@@ -89,5 +89,19 @@
   "references": [{
     "name": "Jane Doe",
     "reference": "Reference..."
-  }]
+  }],
+  "certificates": [
+    {
+      "name": "Karate Kid",
+      "date": "2021-06-21",
+      "issuer": "Double Dojo",
+      "url": "https://www.example.com"
+    },
+    {
+      "name": "Ninja Knitter",
+      "date": "2021-03-04",
+      "issuer": "Knitters Association of Pandas",
+      "url": "https://www.example.com"
+    }
+  ]
 }

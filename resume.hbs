@@ -361,6 +361,35 @@
 	</section>
 	{{/if}}
 
+	{{#if resume.certificates.length}}
+	<section id="certificates" class="row">
+		<aside class="col-sm-3">
+			<h3>Certificates</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			{{#each resume.certificates}}
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>{{name}}</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Issued</em>
+					{{#formatDate date "mmm yyyy"}}{{/formatDate}}
+				</div>
+				<div class="issuer">
+					<em>Issued by</em>
+					<a href={{url}} target="_blank">
+						<strong>{{issuer}}</strong>
+					</a>
+				</div>
+			</div>
+			{{/each}}
+			</div>
+		</div>
+	</section>
+	{{/if}}
+
 	{{#if resume.languages.length}}
 	<section id="languages" class="row">
 		<aside class="col-sm-3">
